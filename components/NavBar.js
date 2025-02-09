@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Nav = () => {
     return (
@@ -16,9 +17,9 @@ const Nav = () => {
                         <div className="md:flex md:items-center md:gap-12">
                             <nav aria-label="Global" className="hidden md:block">
                                 <ul className="flex items-center gap-6 text-sm">
-                                    <li>
-                                        <a className="text-gray-500 transition hover:text-gray-500/75" href="/settings"> Settings</a>
-                                    </li>
+                                    <Link
+                                     className="text-gray-500 transition hover:text-gray-500/75" href="/settings"> Settings
+                                    </Link>
                                 </ul>
                             </nav>
 
