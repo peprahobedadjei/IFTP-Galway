@@ -4,6 +4,7 @@ import GatewayStatus from '@/components/Gateway'
 import PipelineGraph from '@/components/PipelineGraph'
 import PipelineDashedChart from '@/components/PipelineDashedChart'
 import Dashboard from '@/components/Panel'
+import Nav from '@/components/NavBar'
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
       <Head>
         <title>MicroLeak | Home</title>
       </Head>
+      <Nav/>
       <div className='p-2'>
 
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-[180px_1fr] lg:gap-8">
